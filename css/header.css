@@ -1,6 +1,6 @@
 
 .header {
-  background-color: aqua;
+  background-color: #fff;
   width: 375px;
   height: 48px;
   display: flex;
@@ -24,4 +24,5 @@
   width: 24px;
   height: 24px;
   margin-right: 36px;
+  cursor: pointer;
 }
