@@ -1,0 +1,27 @@
+
+.header {
+  background-color: aqua;
+  width: 375px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 76px;
+  height: 20px;
+  margin-left: 24px;
+  color: #6070ff;
+  font: normal 700 18px 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header__nav {
+  width: 24px;
+  height: 24px;
+  margin-right: 36px;
+}
