@@ -43,6 +43,26 @@
   cursor: pointer;
 }
 
+.hero__btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.hero__btn:focus {
+  background-color: #2230d2;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.hero__btn:disabled,
+.hero__btn[disabled] {
+  border: 1px solid #5e6c84;
+  background-color: transparent;
+  color: #5e6c84;
+  border-radius: 8px;
+}
+
 .hero__social {
   margin-top: 12px;
   list-style: none;
