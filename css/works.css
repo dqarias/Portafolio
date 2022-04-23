@@ -1,7 +1,7 @@
-.works{
-    background-color: #E5E5E5;
-    display: grid;
-    grid-template-columns: 24px auto 24px;
-    row-gap:  80px;
-    margin-top: 80px;
+.works {
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  row-gap: 80px;
+  margin-top: 80px;
 }
