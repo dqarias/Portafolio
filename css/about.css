@@ -1,0 +1,105 @@
+.about-myself {
+  background-color: #fff;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 24px;
+  border-top-right-radius: 80px;
+}
+
+.about__title {
+  margin-top: 100px;
+  font: normal 700 40px 'Poppins', sans-serif;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about__description {
+  height: 144px;
+  margin-top: 12px;
+  font: normal 400 16px 'Poppins', sans-serif;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about__social {
+  margin-top: 12px;
+  margin-left: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about__link {
+  margin-right: 20px;
+}
+
+.about__categories {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  list-style: none;
+  align-self: stretch;
+}
+
+.about__categories li {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.about__categories li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  color: #000;
+  font: normal 500 20px 'Poppins', sans-serif;
+}
+
+.about__categories-submenu {
+  background-color: #fff;
+  list-style: none;
+}
+
+.about__categories-submenu li {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.about__categories-submenu li a {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #253858;
+  font: normal 500 15px 'Poppins', sans-serif;
+}
+
+.about__categories-submenu img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+/*
+.about__categories{
+    background-color: aqua;
+    list-style: none;
+    font: normal 500 15px 'Poppins', sans-serif;
+    color: #253858;
+    margin-top: 30px;
+    align-self: stretch;
+}
+
+.about__categories li{
+    height: 40px;
+    border-bottom: 1px solid #DFE1E6;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
