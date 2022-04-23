@@ -1,0 +1,43 @@
+.btn {
+  background-color: transparent;
+  display: flex;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font: normal 500 17px 'Poppins', sans-serif;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 24px;
+}
+
+.btn-ligth {
+  border: none;
+  font: normal 500 16px 'Poppins', sans-serif;
+  color: #7f8cff;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn:focus {
+  background-color: #2230d2;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn:disabled,
+.btn[disabled] {
+  border: 1px solid #5e6c84;
+  background-color: transparent;
+  color: #5e6c84;
+  border-radius: 8px;
+}
