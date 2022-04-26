@@ -1,9 +1,13 @@
 .footer {
-  background-color: aquamarine;
+  background-color: #6070FF;
+  border-top-left-radius: 10%;
+}
+
+.footer fieldset {
+    border: none;
 }
 
 .form {
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   background-image: url(/images/form-shapes-mobile.png);
@@ -17,7 +21,6 @@
 }
 
 .form-title {
-  background-color: rgb(26, 222, 222);
   padding-top: 103px;
   font: normal bold 40px "Poppins", sans-serif;
   text-align: center;
@@ -25,7 +28,6 @@
 }
 
 .form-description {
-  background-color: blue;
   font: normal 400 20px "Poppins", sans-serif;
   color: #ebebff;
   line-height: 28px;
@@ -35,7 +37,7 @@
 .form-btn {
   display: flex;
   align-self: flex-start;
-  padding: 0px 16px;
+  padding: 12px 16px;
   align-items: center;
 }
 
