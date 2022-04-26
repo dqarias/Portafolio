@@ -1,10 +1,10 @@
 .footer {
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-top-left-radius: 10%;
 }
 
 .footer fieldset {
-    border: none;
+  border: none;
 }
 
 .form {
@@ -73,4 +73,9 @@ textarea {
   padding-left: 16px;
   font: normal 400 17px "Poppins", sans-serif;
   color: #172b4d;
+}
+
+.form-list input:invalid,
+textarea:invalid {
+  border: 2px solid red;
 }
