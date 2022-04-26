@@ -13,10 +13,12 @@
   padding-left: 24px;
   padding-right: 24px;
   height: 779px;
+  justify-content: space-between;
 }
 
 .form-title {
   background-color: rgb(26, 222, 222);
+  padding-top: 103px;
   font: normal bold 40px "Poppins", sans-serif;
   text-align: center;
   color: #fff;
@@ -39,6 +41,7 @@
 .form-list li {
   display: flex;
   flex-direction: column;
+  
 }
 
 .form-list input,
@@ -46,4 +49,19 @@ textarea {
   background: #ffffff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+}
+
+.form-list input{
+    height: 48px;
+    padding-left: 16px;
+    font: normal 400 17px "Poppins", sans-serif;
+    color: #172B4D;
+}
+
+.form-list textarea{
+    height: 170px;
+    padding-top: 15px;
+    padding-left: 16px;
+    font: normal 400 17px "Poppins", sans-serif;
+    color: #172B4D;
 }
