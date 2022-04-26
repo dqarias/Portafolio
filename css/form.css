@@ -14,3 +14,32 @@
   padding-right: 24px;
   height: 100vh;
 }
+
+.form-title{
+    background-color: rgb(26, 222, 222);
+    font: normal bold 40px 'Poppins', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.form-description{
+    background-color: blue;
+    font: normal 400 20px 'Poppins', sans-serif;
+    color: #ebebff;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.form-list{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-list input, textarea{
+    background: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 8px;
+}
