@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("./header.css");
 @import url("./hero.css");
 @import url("./works.css");
 @import url("./card.css");
 @import url("./button.css");
 @import url("./about.css");
+@import url("./form.css");
 
 * {
   margin: 0;

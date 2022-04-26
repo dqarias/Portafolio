@@ -1,9 +1,16 @@
 .footer {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 
-.form{
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
+.form {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/form-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 100vh;
 }
