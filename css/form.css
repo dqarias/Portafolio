@@ -12,34 +12,38 @@
   background-position: right;
   padding-left: 24px;
   padding-right: 24px;
-  height: 100vh;
+  height: 779px;
 }
 
-.form-title{
-    background-color: rgb(26, 222, 222);
-    font: normal bold 40px 'Poppins', sans-serif;
-    text-align: center;
-    color: #fff;
+.form-title {
+  background-color: rgb(26, 222, 222);
+  font: normal bold 40px "Poppins", sans-serif;
+  text-align: center;
+  color: #fff;
 }
 
-.form-description{
-    background-color: blue;
-    font: normal 400 20px 'Poppins', sans-serif;
-    color: #ebebff;
-    line-height: 28px;
-    text-align: center;
-
+.form-description {
+  background-color: blue;
+  font: normal 400 20px "Poppins", sans-serif;
+  color: #ebebff;
+  line-height: 28px;
+  text-align: center;
 }
 
-.form-list{
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-
+.form-btn {
+  display: flex;
+  align-self: flex-start;
+  padding: 12px 16px;
 }
 
-.form-list input, textarea{
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
-    border-radius: 8px;
+.form-list li {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-list input,
+textarea {
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
 }
