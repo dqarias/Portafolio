@@ -1,7 +1,6 @@
-
 .header {
   background-color: #fff;
-  width: 100%;
+  width: 100vw;
   height: 48px;
   position: fixed;
   top: 0;
@@ -21,12 +20,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   cursor: pointer;
 }
 
 .header__nav {
-  display: flex;
   margin-right: 36px;
 }
 

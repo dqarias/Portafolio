@@ -1,7 +1,7 @@
 .works {
   background-color: #e5e5e5;
   display: grid;
-  grid-template-columns: 24px auto 24px;
+  grid-template-columns: 12px auto 12px;
   row-gap: 80px;
   margin-top: 80px;
 }
