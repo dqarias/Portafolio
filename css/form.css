@@ -1,51 +1,48 @@
 .footer {
   background-color: #6070ff;
-  border-top-left-radius: 10%;
+  border-top-left-radius: 80px;
 }
 
-.footer fieldset {
-  border: none;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
+.contact-me {
   background-image: url(/images/form-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-  padding-left: 24px;
-  padding-right: 24px;
-  height: 779px;
-  gap: 12px;
 }
 
-.form-title {
+.contact-legend {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.contact-title {
   padding-top: 103px;
   font: normal bold 40px "Poppins", sans-serif;
   text-align: center;
   color: #fff;
 }
 
-.form-description {
+.contact-description {
+  margin-top: 12px;
   font: normal 400 20px "Poppins", sans-serif;
   color: #ebebff;
   line-height: 28px;
   text-align: center;
 }
 
-.form-btn {
+.form {
   display: flex;
-  align-self: flex-start;
-  padding: 12px 16px;
-  align-items: center;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 45px;
+  margin-top: 40px;
 }
 
 .form-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: 40px;
 }
 
 .form-list li {
@@ -80,12 +77,6 @@ textarea:focus {
   outline-color: #6070ff;
 }
 
-.form-list input:valid,
-textarea:valid {
-  border: 1px solid #dfd;
-}
-
-.form-list input:invalid,
-textarea:invalid {
-  border: 1px solid #ef4747;
+.form-btn {
+  align-self: flex-start;
 }
