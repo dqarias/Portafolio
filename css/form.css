@@ -55,7 +55,7 @@
 
 .form-list input,
 textarea {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
@@ -75,7 +75,17 @@ textarea {
   color: #172b4d;
 }
 
+.form-list input:focus,
+textarea:focus {
+  outline-color: #6070ff;
+}
+
+.form-list input:valid,
+textarea:valid {
+  border: 1px solid #dfd;
+}
+
 .form-list input:invalid,
 textarea:invalid {
-  border: 2px solid red;
+  border: 1px solid #ef4747;
 }
