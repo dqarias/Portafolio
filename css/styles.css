@@ -16,3 +16,21 @@
 body {
   background-color: #e5e5e5;
 }
+
+@media (min-width : 768px){
+  .header__list{
+    display: flex;
+    list-style: none;
+  }
+
+  .header__link a{
+    text-decoration: none;
+    font: normal 500 15px 'Poppins', sans-serif;
+    color: #344563;
+    margin-left: 32px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+}
