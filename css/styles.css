@@ -56,6 +56,7 @@ body {
 .works {
   grid-template-columns: 10% auto 10%;
 }
+
 /*card*/
 .card-project {
   flex-direction: row;
@@ -88,6 +89,51 @@ body {
 
 .card__title {
   margin-top: 22px;
+}
+
+/*about me section*/
+
+.about-myself {
+  padding: 0 10%;
+  flex-direction: row;
+}
+
+.about__main{
+  width: min(50%);
+  margin-right: 22px;
+}
+
+.about__extra{
+  width: min(50%);
+  margin-top: 100px;
+}
+
+.about__categories-submenu{
+  display: flex;
+  flex-direction: row;
+}
+
+.about__categories-submenu li{
+  margin-right: 24px;
+  width: 100px;
+}
+
+.about__categories-submenu li a {
+  padding: 12px 10px;
+  align-items: flex-start;
+}
+
+.submenu__link{
+  display: flex;
+  flex-direction: column;
+}
+
+.about__categories {
+  margin-bottom: 200px;
+}
+
+.about__categories-submenu img {
+  margin-bottom: 10px;
 }
 
 }
