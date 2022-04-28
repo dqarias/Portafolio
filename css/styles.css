@@ -41,13 +41,53 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     background-image: url("../images/header-bg.svg");
+    width: 100%;
   }
 
   .hero__title {
-    margin-top: 220px;
+    margin-top: 200px;
   }
 
   .hero__social {
     margin-bottom: 180px;
   }
+
+/*works section*/
+.works {
+  grid-template-columns: 10% auto 10%;
+}
+/*card*/
+.card-project {
+  flex-direction: row;
+  padding: min(2%);
+}
+
+.card__image {
+  width: min(50%);
+  display: flex;
+  align-items: center;
+}
+
+.card__img{
+  width: min(100%);
+  height: min(100%);
+}
+.card__body{
+  width: min(50%);
+  padding-bottom: min(13%);
+  margin-left: 16px;
+}
+
+.card__swap-r {
+  transform: translate(100%);
+}
+
+.card__swap-l {
+  transform: translate(-100%);
+}
+
+.card__title {
+  margin-top: 22px;
+}
+
 }
