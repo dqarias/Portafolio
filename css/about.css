@@ -3,7 +3,6 @@
   margin-top: 80px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0 24px;
   border-top-right-radius: 80px;
 }
@@ -16,7 +15,6 @@
 }
 
 .about__description {
-  height: 144px;
   margin-top: 12px;
   font: normal 400 16px 'Poppins', sans-serif;
   line-height: 24px;
@@ -36,15 +34,18 @@
   margin-right: 20px;
 }
 
+.about-btn {
+  display: flex;
+}
+
 .about__categories {
   background-color: #fff;
-  margin-top: 20px;
   margin-bottom: 80px;
   list-style: none;
   align-self: stretch;
 }
 
-.about__categories li {
+.menu__link {
   border-bottom: 1px solid #dfe1e6;
 }
 
@@ -53,9 +54,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 48px;
   color: #000;
   font: normal 500 20px 'Poppins', sans-serif;
+  padding: 20px 12px;
 }
 
 .about__categories-submenu {
@@ -71,7 +72,7 @@
 }
 
 .about__categories-submenu li a {
-  padding: 0 10px;
+  padding: 12px 10px;
   display: flex;
   align-items: center;
   justify-content: flex-start;

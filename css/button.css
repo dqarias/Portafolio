@@ -7,15 +7,25 @@
 .btn-primary {
   border: 1px solid #6070ff;
   color: #396df2;
-  font: normal 500 17px 'Poppins', sans-serif;
+  font: normal 500 17px "Poppins", sans-serif;
   border-radius: 8px;
   padding: 10px;
-  margin-top: 24px;
+  margin-top: 18px;
+  background-color: #fff;
+}
+
+.btn-primary1 {
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font: normal 500 17px "Poppins", sans-serif;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
 }
 
 .btn-ligth {
   border: none;
-  font: normal 500 16px 'Poppins', sans-serif;
+  font: normal 500 16px "Poppins", sans-serif;
   color: #7f8cff;
   cursor: pointer;
   padding: 0;
@@ -26,6 +36,7 @@
   background-color: #6070ff;
   color: #fff;
   border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .btn:focus {

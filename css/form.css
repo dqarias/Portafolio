@@ -1,0 +1,82 @@
+.footer {
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+}
+
+.contact-me {
+  background-image: url(/images/form-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.contact-legend {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.contact-title {
+  padding-top: 103px;
+  font: normal bold 40px "Poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-description {
+  margin-top: 12px;
+  font: normal 400 20px "Poppins", sans-serif;
+  color: #ebebff;
+  line-height: 28px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 45px;
+  margin-top: 40px;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-list li {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-list input,
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.form-list input {
+  height: 48px;
+  padding-left: 16px;
+  font: normal 400 17px "Poppins", sans-serif;
+  color: #172b4d;
+}
+
+.form-list textarea {
+  height: 170px;
+  padding-top: 15px;
+  padding-left: 16px;
+  font: normal 400 17px "Poppins", sans-serif;
+  color: #172b4d;
+}
+
+.form-list input:focus,
+textarea:focus {
+  outline-color: #6070ff;
+}
+
+.form-btn {
+  align-self: flex-start;
+}

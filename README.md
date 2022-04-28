@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# My Portafolio Project
 
-> This is the second milestone of my portafolio project. For this part I set up it using best practices (linters, Github Flow). I built the middle section of the mobile website following the requirements that Microverse provide us.
+> This Portafolio project displays all my profesional projects in an organized manner.
 
 ## Built With
 
-- Html
+- HTML
 - CSS
 
 ## Getting Started
@@ -30,6 +30,13 @@ To get a local copy up and running follow these simple steps.
 - GitHub: [@dqarias](https://github.com/dqarias)
 - Twitter: [@DinoRonald7](https://twitter.com/DinoRonald7?t=Zanx9DXMEG9C_PNF3woZFg&s=08)
 - LinkedIn: [Dino Quispe](https://www.linkedin.com/in/dino-ronald-quispe-arias-8ba72174/)
+
+👤 **Erick Hans**
+
+- GitHub: [@erickhansx](https://github.com/erickhansx)
+- Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/erick-hans-858382231/)
+
 
 ## 🤝 Contributing
 
