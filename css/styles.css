@@ -136,4 +136,34 @@ body {
   margin-bottom: 10px;
 }
 
+/*contact me section*/
+
+.contact-me{
+  background-image: url(/images/contact-form-background-shapes@2x.png);
+  background-size: contain;
+  background-position: center;
+}
+
+.contact-title {
+  padding-top: min(16%);
+}
+
+.contact-legend {
+  padding-left: min(30%);
+  padding-right: min(30%);
+}
+
+.form {
+  padding-left: min(34%);
+  padding-right: min(34%);
+  padding-bottom: min(8.5%);
+}
+
+.form-list {
+  gap: 27px;
+}
+
+.form-btn {
+  align-self: center;
+}
 }
