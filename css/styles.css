@@ -16,3 +16,176 @@
 body {
   background-color: #e5e5e5;
 }
+
+@media (min-width: 768px) {
+  /* header section */
+
+  .header {
+    height: 60px;
+    padding-right: min(8%);
+    padding-left: min(10%);
+    z-index: 1;
+  }
+
+  .header__list {
+    display: flex;
+    list-style: none;
+  }
+
+  .header__link a {
+    text-decoration: none;
+    font: normal 500 15px 'Poppins', sans-serif;
+    color: #344563;
+    margin-left: 32px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  /* hero section */
+  .hero {
+    padding-left: min(18%);
+    padding-right: min(18%);
+    background-image: url("../images/header-bg.svg");
+    background-size: cover;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .hero__title {
+    margin-top: min(30%);
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__title-text {
+    width: min(100%);
+  }
+
+  .hero__description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .hero__social {
+    margin-bottom: min(25%);
+  }
+
+  /* works section */
+  .works {
+    grid-template-columns: 10% auto 10%;
+  }
+
+  /* card */
+  .card-project {
+    flex-direction: row;
+    padding: min(2%);
+  }
+
+  .card__image {
+    width: min(50%);
+    display: flex;
+    align-items: center;
+  }
+
+  .card__img {
+    width: min(100%);
+    height: min(100%);
+  }
+
+  .card__body {
+    width: min(50%);
+    padding-bottom: min(13%);
+    margin-left: 16px;
+  }
+
+  .card__swap-r {
+    transform: translate(100%);
+  }
+
+  .card__swap-l {
+    transform: translate(-100%);
+  }
+
+  .card__title {
+    margin-top: 22px;
+  }
+
+  /* about me section */
+
+  .about-myself {
+    padding: 0 10%;
+    flex-direction: row;
+  }
+
+  .about__main {
+    width: min(50%);
+    margin-right: 22px;
+  }
+
+  .about__extra {
+    width: min(50%);
+    margin-top: 100px;
+  }
+
+  .about__categories-submenu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about__categories-submenu li {
+    margin-right: 24px;
+    width: 100px;
+  }
+
+  .about__categories-submenu li a {
+    padding: 12px 10px;
+    align-items: flex-start;
+  }
+
+  .submenu__link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__categories {
+    margin-bottom: 200px;
+  }
+
+  .about__categories-submenu img {
+    margin-bottom: 10px;
+  }
+
+  /* contact me section */
+
+  .contact-me {
+    background-image: url(/images/contact-form-background-shapes@2x.png);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .contact-title {
+    padding-top: min(16%);
+  }
+
+  .contact-legend {
+    padding-left: min(30%);
+    padding-right: min(30%);
+  }
+
+  .form {
+    padding-left: min(34%);
+    padding-right: min(34%);
+    padding-bottom: min(8.5%);
+  }
+
+  .form-list {
+    gap: 27px;
+  }
+
+  .form-btn {
+    align-self: center;
+  }
+}

@@ -18,8 +18,6 @@
   font: normal 700 40px 'Poppins', sans-serif;
   line-height: 52px;
   color: #172b4d;
-  display: flex;
-  align-items: center;
 }
 
 .hero__description {

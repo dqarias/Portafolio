@@ -10,6 +10,11 @@
   padding-bottom: 30px;
 }
 
+.card__image {
+  display: flex;
+  justify-content: center;
+}
+
 .card__img {
   width: 295px;
   height: 220px;
