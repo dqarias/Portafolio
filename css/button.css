@@ -2,6 +2,7 @@
   background-color: transparent;
   display: flex;
   cursor: pointer;
+  transition: color 1s ease-in;
 }
 
 .btn-primary {
