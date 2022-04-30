@@ -19,6 +19,11 @@
   width: 295px;
   height: 220px;
   align-self: center;
+  transition: 1s;
+}
+
+.card__img:hover {
+  transform: scale(1.02);
 }
 
 .card__body {
@@ -26,7 +31,7 @@
 }
 
 .card__title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -34,7 +39,7 @@
 }
 
 .card__information {
-  font: normal 600 13px 'Poppins', sans-serif;
+  font: normal 600 13px "Poppins", sans-serif;
   list-style: none;
   margin-top: 10px;
   display: flex;
@@ -46,22 +51,22 @@
 }
 
 .card__information-name {
-  font: normal 600 13px 'Poppins', sans-serif;
+  font: normal 600 13px "Poppins", sans-serif;
   color: #344563;
 }
 
 .card__information-position {
-  font: normal 600 13px 'Poppins', sans-serif;
+  font: normal 600 13px "Poppins", sans-serif;
   color: #7a869a;
 }
 
 .card__information-year {
-  font: normal 600 13px 'Poppins', sans-serif;
+  font: normal 600 13px "Poppins", sans-serif;
   color: #7a869a;
 }
 
 .card__description {
-  font: normal 400 15px 'Poppins', sans-serif;
+  font: normal 400 15px "Poppins", sans-serif;
   line-height: 24px;
   color: #344563;
   margin-top: 20px;
@@ -79,6 +84,6 @@
   padding: 4px 12px;
   border-radius: 8px;
   color: #6070ff;
-  font: normal 500 12px 'Poppins', sans-serif;
+  font: normal 500 12px "Poppins", sans-serif;
   letter-spacing: 0.03em;
 }
