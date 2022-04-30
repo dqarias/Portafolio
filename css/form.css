@@ -31,7 +31,7 @@
   transition: 1s;
 }
 
-.contact-description:hover{
+.contact-description:hover {
   transform: translate(5px);
 }
 
