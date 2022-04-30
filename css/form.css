@@ -28,6 +28,11 @@
   color: #ebebff;
   line-height: 28px;
   text-align: center;
+  transition: 1s;
+}
+
+.contact-description:hover {
+  transform: translate(5px);
 }
 
 .form {
