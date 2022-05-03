@@ -57,12 +57,12 @@
 
 .card__information-position {
   font: normal 600 13px "Poppins", sans-serif;
-  color: #7a869a;
+  color: #5a5a5b;
 }
 
 .card__information-year {
   font: normal 600 13px "Poppins", sans-serif;
-  color: #7a869a;
+  color: #5a5a5b;
 }
 
 .card__description {
@@ -83,7 +83,7 @@
   margin-right: 8px;
   padding: 4px 12px;
   border-radius: 8px;
-  color: #6070ff;
+  color: #6620fd;
   font: normal 500 12px "Poppins", sans-serif;
   letter-spacing: 0.03em;
 }
