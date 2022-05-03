@@ -47,6 +47,12 @@ This project has been deployed using Github page
 - Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/erick-hans-858382231/)
 
+👤 **Alfred Boateng**
+
+- GitHub: [@learnwithalfred](https://github.com/learnwithalfred)
+- Twitter: [@kb_alfred](https://twitter.com/kb_alfred)
+- LinkedIn: [Alfred Boateng](https://www.linkedin.com/in/alfred-boateng-704670138/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
