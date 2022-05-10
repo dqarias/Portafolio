@@ -1,13 +1,7 @@
 .header {
   background-color: #fff;
   width: 100vw;
-  height: 48px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: auto;
 }
 
 .header__logo {
@@ -39,7 +33,13 @@
 }
 
 .header__nav {
-  margin-right: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  padding: 2px 24px 24px 24px;
+
+
 }
 
 .header__menu {
@@ -50,4 +50,31 @@
 
 .header__list {
   display: none;
+}
+
+.hamburger {
+  display: block;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+}
+
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+  background-color: #fff;
+}
+
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
 }

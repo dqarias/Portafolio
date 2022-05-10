@@ -20,6 +20,10 @@ body {
 @media (min-width: 768px) {
   /* header section */
 
+  body {
+    background-color: white;
+  }
+
   .header {
     height: 60px;
     padding-right: min(8%);
@@ -41,6 +45,11 @@ body {
 
   .header__menu {
     display: none;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
   }
 
   /* hero section */
