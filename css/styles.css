@@ -24,6 +24,7 @@ body {
     background-color: white;
   }
 
+  
   .header {
     height: 60px;
     padding-right: min(8%);
@@ -31,20 +32,20 @@ body {
     z-index: 1;
   }
 
-  .header__list {
+  .nav_menu {
     display: flex;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
   }
 
-  .header__link a {
-    text-decoration: none;
-    font: normal 500 15px 'Poppins', sans-serif;
+  .nav_menu.active {
+    left: 0;
+    height: 60px;
+  }
+
+  .nav_link {
     color: #344563;
-    margin-left: 32px;
-  }
-
-  .header__menu {
-    display: none;
   }
 
   .hamburger {
