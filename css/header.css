@@ -88,6 +88,10 @@ header {
   background-color: #fff;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 @media only screen and (max-width: 768px) {
   .nav_menu {
     position: fixed;
