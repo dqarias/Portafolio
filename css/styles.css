@@ -21,26 +21,33 @@ body {
   /* header section */
 
   .header {
-    height: 60px;
     padding-right: min(8%);
     padding-left: min(10%);
+    height: 60px;
     z-index: 1;
   }
 
-  .header__list {
+  .nav_menu {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     list-style: none;
   }
 
-  .header__link a {
+  .nav_menu.active {
+    left: 0;
+  }
+
+  .nav_link {
     text-decoration: none;
-    font: normal 500 15px 'Poppins', sans-serif;
+    font: normal 500 15px "Poppins", sans-serif;
     color: #344563;
     margin-left: 32px;
   }
 
-  .header__menu {
+  .hamburger {
     display: none;
+    cursor: pointer;
   }
 
   /* hero section */
