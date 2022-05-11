@@ -20,32 +20,29 @@ body {
 @media (min-width: 768px) {
   /* header section */
 
-  body {
-    background-color: white;
-  }
-
-  
   .header {
-    height: 60px;
     padding-right: min(8%);
     padding-left: min(10%);
+    height: 60px;
     z-index: 1;
   }
 
   .nav_menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    gap: 60px;
+    list-style: none;
   }
 
   .nav_menu.active {
     left: 0;
-    height: 60px;
   }
 
   .nav_link {
+    text-decoration: none;
+    font: normal 500 15px "Poppins", sans-serif;
     color: #344563;
+    margin-left: 32px;
   }
 
   .hamburger {

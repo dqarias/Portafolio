@@ -1,17 +1,14 @@
 header {
   background-color: #fff;
   width: 100vw;
-  height: auto;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
+  height: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
 }
 
 .header__logo {
@@ -19,7 +16,7 @@ a {
   height: 20px;
   margin-left: 24px;
   color: #6070ff;
-  font: normal 700 18px 'Poppins', sans-serif;
+  font: normal 700 18px "Poppins", sans-serif;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -42,14 +39,12 @@ a {
   }
 }
 
-
-
 .navbar {
-  min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 24px 24px 24px;
+  margin-right: 36px;
+  /*padding: 2px 24px 24px 24px;*/
 }
 
 .nav_link {
@@ -61,8 +56,13 @@ a {
   color: red;
 }
 
-.hamburger{
+.nav_menu.active {
+  left: 0;
+}
+
+.hamburger {
   display: block;
+  cursor: pointer;
 }
 
 .bar {
@@ -74,33 +74,23 @@ a {
   background-color: #6070ff;
 }
 
-.hamburger.active .bar:nth-child(2){
+.hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
 
-.hamburger.active .bar:nth-child(1){
+.hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
   background-color: #fff;
 }
 
-.hamburger.active .bar:nth-child(3){
+.hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background-color: #fff;
 }
 
-.nav_item {
-  margin: 16px 0;
-}
-
-.nav_menu.active {
-  left: 0;
-  height: 100vh;
-}
-
-
 @media only screen and (max-width: 768px) {
   .nav_menu {
-    position:fixed;
+    position: fixed;
     left: -100%;
     top: 0;
     gap: 0;
@@ -109,18 +99,20 @@ a {
     height: 100vh;
     text-align: left;
     transition: 0.3s;
-    background-color: rgba(96, 112, 255, 0.9);
+    background-color: rgba(96, 112, 255, 0.747);
     backdrop-filter: blur(5px);
-    padding-top: 10%;
+    padding-top: 15%;
+    padding-left: 24px;
+    list-style: none;
   }
 
   .nav_link {
     transition: 0.7s ease;
     color: #fff;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 138%;
+    font: normal 600 32px "Poppins", sans-serif;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    padding-top: 5%;
   }
 }

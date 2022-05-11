@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-top: 48px;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
@@ -14,14 +15,14 @@
 
 .hero__title {
   margin-top: 100px;
-  font: normal 700 40px 'Poppins', sans-serif;
+  font: normal 700 40px "Poppins", sans-serif;
   line-height: 52px;
   color: #172b4d;
 }
 
 .hero__description {
   margin-top: 12px;
-  font: normal 400 16px 'Poppins', sans-serif;
+  font: normal 400 16px "Poppins", sans-serif;
   line-height: 24px;
   color: #172b4d;
   display: flex;
@@ -31,7 +32,7 @@
 .hero__btn {
   background-color: transparent;
   border: none;
-  font: normal 500 16px 'Poppins', sans-serif;
+  font: normal 500 16px "Poppins", sans-serif;
   color: #7f8cff;
   margin-top: 12px;
   cursor: pointer;
