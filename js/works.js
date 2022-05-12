@@ -2,7 +2,7 @@ projects = [
     {
         id : '0',
         image: 'images/Project1.png',
-        title: 'Esla 1',
+        title: 'Tonic',
         autor: 'CANOPY',
         position: 'Back End Dev',
         year: 2015,
@@ -16,7 +16,7 @@ projects = [
     {
         id : '1',
         image: 'images/Project2.png',
-        title: 'Esla 2',
+        title: 'Multi-Post Stories',
         autor: 'CANOPY',
         position: 'Back End Dev',
         year: 2015,
@@ -28,7 +28,7 @@ projects = [
     {
         id : '2',
         image: 'images/Project3.png',
-        title: 'Esla 3',
+        title: 'Tonic',
         autor: 'CANOPY',
         position: 'Back End Dev',
         year: 2015,
@@ -40,7 +40,7 @@ projects = [
     {
         id : '3',
         image: 'images/Project4.png',
-        title: 'Esla 4',
+        title: 'Multi-Post Stories',
         autor: 'CANOPY',
         position: 'Back End Dev',
         year: 2015,
@@ -127,7 +127,8 @@ projects.filter((modalCard)=>{
           <li>
             <img src="./images/counter.svg" alt="information separator" />
           </li>
-          <li class="modal__information-year">hh<${modalCard.year}
+          <li class="modal__information-year">${modalCard.year}</li>
+          <li>
         </ul>
         <img class="modal__image" src="${modalCard.image}" alt="">
         <p class="modal__description">${modalCard.descriptionDetail}</p>
@@ -147,6 +148,7 @@ projects.filter((modalCard)=>{
                 console.log("Click en cerrar");
                 //body.removeChild(modalCard);
                 modalProject.classList.remove("modal");
+                body.removeChild(modalProject);
             })
         })
         
