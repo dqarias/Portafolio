@@ -6,6 +6,7 @@
 @import url("./button.css");
 @import url("./about.css");
 @import url("./form.css");
+@import url("./modal.css");
 
 * {
   margin: 0;
@@ -118,6 +119,38 @@ body {
 
   .card__title {
     margin-top: 22px;
+  }
+
+  /* modal section */
+
+  .modal-container {
+    margin: 20px auto;
+    padding: 12px 24px;
+    width: 80%;
+    height: 90%;
+  }
+
+  .modal__image {
+    min-width: 100%;
+    min-height: 75%;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .modal-body > p {
+    min-width: 65%;
+  }
+
+  .modal-aside {
+    min-width: 35%;
+  }
+
+  .modal__languages {
+    margin-left: 12px;
   }
 
   /* about me section */

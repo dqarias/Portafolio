@@ -1,0 +1,134 @@
+.modal {
+  position: fixed;
+  background-color: #c1c7d038;
+  backdrop-filter: blur(5px);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 2;
+}
+
+.modal-container {
+  background-color: #fff;
+  width: 92%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  padding: 20px 16px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.modal-close {
+  color: #67798e;
+  font: normal 600 18px "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.modal__information {
+  font: normal 600 13px "Poppins", sans-serif;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.modal__information li {
+  margin-right: 8px;
+}
+
+.modal__information-name {
+  font: normal 600 13px "Poppins", sans-serif;
+  color: #344563;
+}
+
+.modal__information-position {
+  font: normal 600 13px "Poppins", sans-serif;
+  color: #7a869a;
+}
+
+.modal__information-year {
+  font: normal 600 13px "Poppins", sans-serif;
+  color: #7a869a;
+}
+
+.modal__image {
+  width: 295px;
+  height: 220px;
+  align-self: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal__description {
+  font: normal 400 15px "Poppins", sans-serif;
+  line-height: 24px;
+  color: #344563;
+}
+
+.modal-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal__languages {
+  list-style: none;
+  display: flex;
+}
+
+.modal__languages li {
+  background-color: #ebebff;
+  margin-right: 8px;
+  padding: 0 12px;
+  border-radius: 8px;
+  color: #6070ff;
+  font: normal 500 12px "Poppins", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.modal__btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal__btns li {
+  list-style: none;
+  width: 45%;
+}
+
+.modal__btns a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.modal__btns img {
+  margin-left: 8px;
+  color: #fff;
+}
+
+.modal__btns > img:hover {
+  color: #fff;
+}
