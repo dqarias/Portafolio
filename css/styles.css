@@ -125,14 +125,14 @@ body {
 
   .modal-container {
     margin: 20px auto;
-    padding: 12px 16px;
-    width: 85%;
-    height: 85%;
+    padding: 12px 24px;
+    width: 80%;
+    height: 90%;
   }
 
   .modal__image {
-    min-width: 80%;
-    min-height: 70%;
+    min-width: 100%;
+    min-height: 75%;
   }
 
   .modal-body {
@@ -147,6 +147,10 @@ body {
 
   .modal-aside {
     min-width: 35%;
+  }
+
+  .modal__languages {
+    margin-left: 12px;
   }
 
   /* about me section */

@@ -1,6 +1,6 @@
 .modal {
   position: fixed;
-  background-color: #3031324d;
+  background-color: #c1c7d038;
   backdrop-filter: blur(5px);
   top: 0;
   left: 0;
@@ -26,7 +26,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
 }
 
 .modal__title {
@@ -109,12 +108,12 @@
 
 .modal__btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .modal__btns li {
   list-style: none;
-  width: 48%;
+  width: 45%;
 }
 
 .modal__btns a {

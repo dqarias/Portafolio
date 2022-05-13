@@ -24,6 +24,15 @@
   background-color: #fff;
 }
 
+.btn-primary2 {
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font: normal 500 17px "Poppins", sans-serif;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+}
+
 .btn-ligth {
   border: none;
   font: normal 500 16px "Poppins", sans-serif;
