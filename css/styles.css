@@ -123,6 +123,31 @@ body {
 
   /* modal section */
 
+  .modal-container {
+    width: 80%;
+    height: 80%;
+    margin: 20px auto;
+    padding: 12px 16px;
+  }
+
+  .modal__image {
+    min-width: 80%;
+    min-height: 50%;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .modal-body > p {
+    min-width: 65%;
+  }
+
+  .modal-aside {
+    min-width: 35%;
+  }
 
   /* about me section */
 
