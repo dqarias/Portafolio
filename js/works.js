@@ -139,8 +139,8 @@ openModal.forEach((elementModal) => {
         <li>${modalCard.language[2]}</li>
         </ul>
         <ul class="modal__btns">
-          <li><a class="btn btn-primary1" href="">See live <img src="./images/iconLive.svg" alt=""></a></li>
-          <li><a class="btn btn-primary1" href="">See Source <img src="./images/iconModalGitHub.svg" alt=""></a></li>
+          <li><a class="btn btn-primary1" href="${modalCard.live}">See live <img src="./images/iconLive.svg" alt=""></a></li>
+          <li><a class="btn btn-primary1" href="${modalCard.source}">See Source <img src="./images/iconModalGitHub.svg" alt=""></a></li>
         </ul>
         </div>
         </div>
