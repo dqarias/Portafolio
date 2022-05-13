@@ -2,6 +2,7 @@ projects = [
     {
         id : '0',
         image: 'images/Project1.png',
+        imageProject: 'images/imageProject.png',
         title: 'Tonic',
         autor: 'CANOPY',
         position: 'Back End Dev',
@@ -16,6 +17,7 @@ projects = [
     {
         id : '1',
         image: 'images/Project2.png',
+        imageProject: 'images/imageProject.png',
         title: 'Multi-Post Stories',
         autor: 'CANOPY',
         position: 'Back End Dev',
@@ -28,6 +30,7 @@ projects = [
     {
         id : '2',
         image: 'images/Project3.png',
+        imageProject: 'images/imageProject.png',
         title: 'Tonic',
         autor: 'CANOPY',
         position: 'Back End Dev',
@@ -40,6 +43,7 @@ projects = [
     {
         id : '3',
         image: 'images/Project4.png',
+        imageProject: 'images/imageProject.png',
         title: 'Multi-Post Stories',
         autor: 'CANOPY',
         position: 'Back End Dev',
@@ -130,15 +134,22 @@ projects.filter((modalCard)=>{
           <li class="modal__information-year">${modalCard.year}</li>
           <li>
         </ul>
-        <img class="modal__image" src="${modalCard.image}" alt="">
+        
+        <img class="modal__image" src="${modalCard.imageProject}" alt="">
+        <div class="modal-body">
         <p class="modal__description">${modalCard.descriptionDetail}</p>
+        <div class="modal-aside">
         <ul class="modal__languages">
-         
+        <li>${modalCard.language[0]}</li>
+        <li>${modalCard.language[1]}</li>
+        <li>${modalCard.language[2]}</li>
         </ul>
         <ul class="modal__btns">
           <li><a class="btn btn-primary1" href="">See live <img src="./images/iconLive.svg" alt=""></a></li>
           <li><a class="btn btn-primary1" href="">See Source <img src="./images/iconModalGitHub.svg" alt=""></a></li>
         </ul>
+        </div>
+        </div>
         </div>`;  
         body.appendChild(modalProject);
         const closeModal = document.querySelectorAll('.modal-close');

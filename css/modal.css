@@ -39,6 +39,7 @@ padding:12px 16px;
 .modal-close{
 color: #67798e;
 font: normal 600 18px "Poppins", sans-serif;
+cursor: pointer;
 }
 
 .modal__information{
@@ -72,6 +73,11 @@ font: normal 600 18px "Poppins", sans-serif;
     height: 220px;
     align-self: center;
 }
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
 .modal__description{
     font: normal 400 15px "Poppins", sans-serif;
@@ -79,6 +85,11 @@ font: normal 600 18px "Poppins", sans-serif;
     color: #344563;
 }
 
+.modal-aside{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 .modal__languages{
     list-style: none;
     display: flex;
@@ -114,4 +125,9 @@ font: normal 600 18px "Poppins", sans-serif;
 
 .modal__btns img{
     margin-left: 8px;
+    color: #fff;
+}
+
+.modal__btns>img:hover{
+    color: #fff;
 }
