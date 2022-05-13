@@ -1,66 +1,66 @@
-projects = [
-    {
-        id : '0',
-        image: 'images/Project1.png',
-        imageProject: 'images/imageProject.png',
-        title: 'Tonic',
-        autor: 'CANOPY',
-        position: 'Back End Dev',
-        year: 2015,
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        language: ['html', 'css', 'javaScript'],
-        live: 'https://dqarias.github.io/Portafolio/',
-        source:'https://github.com/dqarias/Portafolio',
-    },
+const projects = [
+  {
+    id: '0',
+    image: 'images/Project1.png',
+    imageProject: 'images/imageProject.png',
+    title: 'Tonic',
+    autor: 'CANOPY',
+    position: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    language: ['html', 'css', 'javaScript'],
+    live: 'https://dqarias.github.io/Portafolio/',
+    source: 'https://github.com/dqarias/Portafolio',
+  },
 
-    {
-        id : '1',
-        image: 'images/Project2.png',
-        imageProject: 'images/imageProject.png',
-        title: 'Multi-Post Stories',
-        autor: 'CANOPY',
-        position: 'Back End Dev',
-        year: 2015,
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        language: ['html', 'css', 'javaScript'],
-    },
+  {
+    id: '1',
+    image: 'images/Project2.png',
+    imageProject: 'images/imageProject.png',
+    title: 'Multi-Post Stories',
+    autor: 'CANOPY',
+    position: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    language: ['html', 'css', 'javaScript'],
+  },
 
-    {
-        id : '2',
-        image: 'images/Project3.png',
-        imageProject: 'images/imageProject.png',
-        title: 'Tonic',
-        autor: 'CANOPY',
-        position: 'Back End Dev',
-        year: 2015,
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        language: ['html', 'css', 'javaScript'],
-    },
+  {
+    id: '2',
+    image: 'images/Project3.png',
+    imageProject: 'images/imageProject.png',
+    title: 'Tonic',
+    autor: 'CANOPY',
+    position: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    language: ['html', 'css', 'javaScript'],
+  },
 
-    {
-        id : '3',
-        image: 'images/Project4.png',
-        imageProject: 'images/imageProject.png',
-        title: 'Multi-Post Stories',
-        autor: 'CANOPY',
-        position: 'Back End Dev',
-        year: 2015,
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        language: ['html', 'css', 'javaScript'],
-    }
-]
+  {
+    id: '3',
+    image: 'images/Project4.png',
+    imageProject: 'images/imageProject.png',
+    title: 'Multi-Post Stories',
+    autor: 'CANOPY',
+    position: 'Back End Dev',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    language: ['html', 'css', 'javaScript'],
+  },
+];
 
 const work = document.querySelector('.works');
 
 const renderCards = () => {
-    projects.map((card)=>{
-        let cardProject = document.createElement("div");
-        cardProject.classList.add("card-project");
-        cardProject.innerHTML= `
+  projects.forEach((card) => {
+    const cardProject = document.createElement('div');
+    cardProject.classList.add('card-project');
+    cardProject.innerHTML = `
         <div class="card__image">
           <img
             class="card__img"
@@ -94,29 +94,23 @@ const renderCards = () => {
             </div>
         </div>
          `;
-         work.appendChild(cardProject);
-         
-    })
-     
-}
+    work.appendChild(cardProject);
+  });
+};
 
 renderCards();
 
 const openModal = document.querySelectorAll('.open-modal');
-console.log(openModal)
 
-openModal.forEach((elementModal)=>{
-    elementModal.addEventListener('click', (e)=>{
-        e.preventDefault();
-        console.log("auchhclick")
-        console.log(elementModal.id)
-    
-projects.filter((modalCard)=>{
-        if (elementModal.id == `cardId${modalCard.id}`){
-            console.log(modalCard.id)
-            let modalProject = document.createElement("div");
-            modalProject.classList.add("modal");
-            modalProject.innerHTML =`
+openModal.forEach((elementModal) => {
+  elementModal.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    projects.forEach((modalCard) => {
+      if (elementModal.id === `cardId${modalCard.id}`) {
+        const modalProject = document.createElement('div');
+        modalProject.classList.add('modal');
+        modalProject.innerHTML = `
              <div class="modal-container">
              <div class="modal-header">
              <h2 class="modal__title">${modalCard.title}</h2>
@@ -150,35 +144,17 @@ projects.filter((modalCard)=>{
         </ul>
         </div>
         </div>
-        </div>`;  
-        body.appendChild(modalProject);
+        </div>`;
+        work.appendChild(modalProject);
         const closeModal = document.querySelectorAll('.modal-close');
-       
-        closeModal.forEach((closeM)=>{
-            closeM.addEventListener('click',()=>{
-                console.log("Click en cerrar");
-                //body.removeChild(modalCard);
-                modalProject.classList.remove("modal");
-                body.removeChild(modalProject);
-            })
-        })
-        
-        
-        }
+
+        closeModal.forEach((closeM) => {
+          closeM.addEventListener('click', () => {
+            modalProject.classList.remove('modal');
+            work.removeChild(modalProject);
+          });
+        });
+      }
     });
-    
-  
-      
-   
-    
-})
-})
-
-
-
-    
-   
-
-
-
-
+  });
+});
