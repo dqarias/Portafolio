@@ -167,21 +167,21 @@
           <p class="contact-description">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
-            to help with it
+            to help with it action="https://formspree.io/f/mgedpkaq"
+            method="POST"
           </p>
         </div>
         <form
           class="form"
           id="form"
-          action="https://formspree.io/f/mgedpkaq"
-          method="POST"
+          
         >
           <ul class="form-list">
             <li>
               <input
                 type="text"
                 name="user_name"
-                id="name"
+                id="userName"
                 placeholder="Write your name"
                 maxlength="30"
                 required
@@ -191,7 +191,7 @@
               <input
                 type="email"
                 name="E-mail"
-                id="email"
+                id="userEmail"
                 placeholder="Write your email"
                 required
               />
@@ -200,7 +200,7 @@
             <li>
               <textarea
                 name="message"
-                id="message"
+                id="userMessage"
                 cols="30"
                 rows="10"
                 placeholder="Write your message here"
@@ -212,7 +212,7 @@
               <p id="error-message" class="error-message"></p>
             </li>
             <li class="form-btn">
-              <button class="btn btn-primary1 form-btn" type="submit">
+              <button class="btn btn-primary1 form-btn" type="btn">
                 Get in touch
               </button>
             </li>
@@ -223,5 +223,6 @@
     <script src="js/scripts.js"></script>
     <script src="/js/works.js"></script>
     <script src="./js/validation.js"></script>
+    <script src="./js/local-storage.js"></script>
   </body>
 </html>
