@@ -87,6 +87,7 @@ textarea:focus {
 }
 
 .error-message {
+  font: normal 400 20px "Poppins", sans-serif;
   color: red;
   display: none;
 }
