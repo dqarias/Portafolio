@@ -172,6 +172,7 @@
         </div>
         <form
           class="form"
+          id="form"
           action="https://formspree.io/f/mgedpkaq"
           method="POST"
         >
@@ -194,6 +195,7 @@
                 placeholder="Write your email"
                 required
               />
+              <small></small>
             </li>
             <li>
               <textarea
@@ -206,6 +208,9 @@
                 required
               ></textarea>
             </li>
+            <li>
+              <p id="error-message" class="error-message"></p>
+            </li>
             <li class="form-btn">
               <button class="btn btn-primary1 form-btn" type="submit">
                 Get in touch
@@ -217,5 +222,6 @@
     </footer>
     <script src="js/scripts.js"></script>
     <script src="/js/works.js"></script>
+    <script src="./js/validation.js"></script>
   </body>
 </html>

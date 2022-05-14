@@ -85,3 +85,13 @@ textarea:focus {
 .form-btn {
   align-self: flex-start;
 }
+
+.error-message {
+  font: normal 400 20px "Poppins", sans-serif;
+  color: red;
+  display: none;
+}
+
+.error-message.active {
+  display: contents;
+}
