@@ -172,6 +172,7 @@
         </div>
         <form
           class="form"
+          id="form"
           action="https://formspree.io/f/mgedpkaq"
           method="POST"
         >
@@ -206,8 +207,8 @@
                 required
               ></textarea>
             </li>
-            <li class="error-message">
-            
+            <li>
+              <p id="error-message" class="error-message">Email should be in lower case</p>
             </li>
             <li class="form-btn">
               <button class="btn btn-primary1 form-btn" type="submit">

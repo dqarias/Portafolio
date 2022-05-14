@@ -85,3 +85,12 @@ textarea:focus {
 .form-btn {
   align-self: flex-start;
 }
+
+.error-message {
+  color: red;
+  display: none;
+}
+
+.error-message.active {
+  display: contents;
+}
