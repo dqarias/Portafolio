@@ -1,17 +1,17 @@
 const projects = [
   {
     id: '0',
-    image: 'images/Project1.png',
-    imageProject: 'images/imageProject.png',
+    image: 'images/Capstone_Project.png',
+    imageProject: 'images/Capstone_Project.png',
     title: 'Tonic 1',
     autor: 'CANOPY',
     position: 'Back End Dev',
     year: 2015,
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    descriptionDetail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries',
     language: ['html', 'css', 'javaScript'],
-    live: 'https://dqarias.github.io/Portafolio/',
-    source: 'https://github.com/dqarias/Portafolio',
+    live: 'https://dqarias.github.io/Capstone1-page/',
+    source: 'https://github.com/dqarias/Capstone1-page',
   },
 
   {
