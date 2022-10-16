@@ -1,8 +1,8 @@
 const projects = [
   {
     id: '0',
-    image: 'images/Capstone_Project.png',
-    imageProject: 'images/Capstone_Project.png',
+    image: 'images/imageProject.png',
+    imageProject: 'images/imageProject.png',
     title: 'Andean Cat',
     autor: 'Dino',
     position: 'Fronted Dev',
